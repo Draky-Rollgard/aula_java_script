@@ -1,0 +1,10 @@
+const dividir = (a, b) => {
+  return a / b;
+};
+
+/*
+OU PODE SIMPLIFICAR AINDA MAIS COM:
+
+const dobrar = x => x * 2;
+
+*/

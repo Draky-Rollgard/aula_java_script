@@ -66,12 +66,17 @@ Lógicos:
 !   // NÃO (NOT)
 
 Tarefa de aula
+
 Crie um programa que:
+-Receba uma variável com a idade de uma pessoa.
+-Se a idade for menor que 18, escreva: "Menor de idade".
+-Se for entre 18 e 65, escreva: "Adulto".
+-Caso contrário, escreva: "Idoso".
 
-Receba uma variável com a idade de uma pessoa.
+Aula 04
 
-Se a idade for menor que 18, escreva: "Menor de idade".
-
-Se for entre 18 e 65, escreva: "Adulto".
-
-Caso contrário, escreva: "Idoso".
+Aprendendo funções como blocos de código reutilizáveis.
+Funções com parâmetros - pode ser chamada antes da declaração
+Funções com retorno - pode ser chamada antes da declaração
+Funções anônimas - não pode ser chamada antes da declaração
+Funções flecha - não pode ser chamada antes da declaração
