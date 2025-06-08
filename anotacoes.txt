@@ -36,3 +36,32 @@ var: era usado no ES6 (2015) mas agora não mais
 var nome = "João";
 
 EVITAR o uso de var
+
+Aula 03
+
+Aprendendo a usar estruturas de controle: if, else, switch, for, while.
+Aprendendo a usar operadores lógicos: +, -, *, /, %, **.
+
++  // soma
+-  // subtração
+*  // multiplicação
+/  // divisão
+%  // módulo (resto)
+** // exponenciação
+
+Para relacionais, temos:
+
+==   // igual (com coerção de tipo) → ⚠️ evite
+===  // igual estrito (sem coerção) → ✅ preferido
+!=   // diferente (com coerção)
+!==  // diferente estrito
+>    // maior
+>=   // maior ou igual
+<    // menor
+<=   // menor ou igual
+
+Lógicos:
+&&  // E (AND)
+||  // OU (OR)
+!   // NÃO (NOT)
+
