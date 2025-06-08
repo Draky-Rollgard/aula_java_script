@@ -1,0 +1,38 @@
+Aula 01
+
+Aprendendo a usar "inspecionar console" no navegador e uso do trecho:
+
+console.log("Olá, JavaScript!");
+
+Criação de index01.html
+
+Aula 02
+
+Aprendendo tipos de dados e variáveis: var, let, const
+
+| Tipo        | Exemplo                            | Descrição                                |
+| ----------- | ---------------------------------- | ---------------------------------------- |
+| `number`    | `3.14`, `-10`, `0xFF`, `1e6`       | Números inteiros e de ponto flutuante    |
+| `string`    | `"texto"`, `'a'`, `` `template` `` | Texto ou caracteres                      |
+| `boolean`   | `true`, `false`                    | Lógico: verdadeiro ou falso              |
+| `undefined` | `undefined`                        | Variável declarada, mas não inicializada |
+| `null`      | `null`                             | Ausência intencional de valor            |
+| `symbol`    | `Symbol("id")`                     | Identificadores únicos (avançado)        |
+| `bigint`    | `12345678901234567890n`            | Inteiros muito grandes (>= 2⁵³)          |
+
+Declarando variáveis em JavaScript
+
+let: para variáveis reatribuídas.
+
+let idade = 20;
+idade = 21;
+
+const: constantes que não mudam após definição
+
+const PI = 3.14159
+// PI = 3.14 -> ERRO!
+
+var: era usado no ES6 (2015) mas agora não mais
+var nome = "João";
+
+EVITAR o uso de var
