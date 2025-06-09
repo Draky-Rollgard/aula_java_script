@@ -148,3 +148,93 @@ externo envie ou receba dados de um servidor.
 Na Web, usamos APIs RESTful, que geralmente comunicam 
 dados em formato JSON via HTTP (GET, POST, PUT, DELETE).
 
+Aula 07
+
+Aprendendo DOM 
+
+O que é o DOM (Document Object Model)?
+O DOM é uma representação em árvore de um 
+documento HTML (ou XML), criada pelo navegador.
+Cada tag HTML vira um nó (node) na árvore, e o 
+JavaScript pode navegar, modificar, criar ou 
+remover esses nós dinamicamente.
+
+Exemplo de HTML:
+html
+Copiar código
+<body>
+  <h1>Olá Mundo</h1>
+  <p id="mensagem">Texto original</p>
+</body>
+
+Como o navegador vê isso:
+less
+Copiar código
+document
+ └── html
+     └── body
+         ├── h1
+         └── p (id="mensagem")
+
+Acessar e manipular elementos do HTML com JavaScript
+✅ Seletores – Como selecionar elementos:
+
+| Método               | Exemplo                               | Descrição                                                            |
+| -------------------- | ------------------------------------- | -------------------------------------------------------------------- |
+| `getElementById()`   | `document.getElementById("mensagem")` | Seleciona **um elemento** com ID específico                          |
+| `querySelector()`    | `document.querySelector("p")`         | Seleciona o **primeiro elemento** que bater com o seletor (CSS-like) |
+| `querySelectorAll()` | `document.querySelectorAll("p")`      | Seleciona **todos os elementos** que batem com o seletor             |
+
+
+Olhe o index03 como exemplo.
+
+
+Agora está pronto para começar a aprender NodeJS
+Por que você está pronto:
+Com base no que estudamos até agora:
+
+| Conhecimento           | Situação atual                                                               |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| Sintaxe básica do JS   | ✅ Você domina variáveis, condicionais, laços, funções                        |
+| Programação assíncrona | ✅ Você já usou `async/await` com `fetch()` corretamente                      |
+| Manipulação de arrays  | ✅ Viu estrutura, precisa ainda de mais prática com `map`, `filter`, `reduce` |
+| JSON e requisições     | ✅ Já usou APIs REST (`fetch()`), e entende que JSON é estrutura de dados     |
+
+
+Antes disso, vamos finalizar o módulo 7 e 8 para iniciar o NodeJS
+
+Métodos importantes
+| Método                            | Descrição                                             |
+| --------------------------------- | ----------------------------------------------------- |
+| `textContent`                     | Altera ou lê o **texto visível** de um elemento       |
+| `innerHTML`                       | Altera o **conteúdo HTML interno** (ex: inserir tags) |
+| `getAttribute(nome)`              | Lê o valor de um atributo (ex: `src`, `alt`)          |
+| `setAttribute(nome, valor)`       | Altera o valor de um atributo                         |
+| `element.id`, `element.alt`, etc. | Também funcionam diretamente como propriedades        |
+
+
+Eventos no DOM
+
+Um evento é qualquer ação que o usuário faz na página: 
+clicar, digitar, passar o mouse, enviar um formulário, etc.
+
+Principais:
+| Evento      | Disparo                                         |
+| ----------- | ----------------------------------------------- |
+| `click`     | Quando um elemento é clicado                    |
+| `mouseover` | Quando o mouse passa por cima                   |
+| `mouseout`  | Quando o mouse sai de cima                      |
+| `keydown`   | Quando uma tecla é pressionada                  |
+| `submit`    | Quando um formulário é enviado                  |
+| `change`    | Quando um `<input>` ou `<select>` muda de valor |
+
+
+🎓 Exercício prático sugerido:
+Crie um formulário com um campo de nome 
+e um botão de envio. Ao clicar, o JS deve:
+
+-Impedir envio automático (preventDefault)
+-Capturar o valor digitado
+-Exibir uma mensagem de boas-vindas com o nome
+-Se quiser, posso te orientar passo a passo na 
+construção disso.
