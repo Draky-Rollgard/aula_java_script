@@ -137,3 +137,14 @@ Regras formais:
 -Chaves devem ser strings entre aspas duplas (" ").
 -Dados podem ser: número, string, 
  booleano, null, arrays ou outros objetos.
+
+
+Aprendendo sobre API
+
+Uma API (Application Programming Interface) é um 
+conjunto de rotas (URLs) que permite que um sistema 
+externo envie ou receba dados de um servidor.
+
+Na Web, usamos APIs RESTful, que geralmente comunicam 
+dados em formato JSON via HTTP (GET, POST, PUT, DELETE).
+
