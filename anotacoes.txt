@@ -122,3 +122,18 @@ cada um com nome e nota.
     Uma função que percorra esse array e retorne o nome de 
 todos os estudantes com nota ≥ 7.
 
+Aula 06 
+
+Aprendendo sobre JSON(JavaScript Object Notation)
+
+JSON é um formato textual, padronizado, 
+leve e independente de linguagem para troca de 
+dados entre sistemas. 
+Baseia-se na estrutura de objetos do JavaScript, 
+mas pode ser usado por qualquer linguagem moderna.
+
+Regras formais:
+
+-Chaves devem ser strings entre aspas duplas (" ").
+-Dados podem ser: número, string, 
+ booleano, null, arrays ou outros objetos.
