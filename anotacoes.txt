@@ -80,3 +80,45 @@ Funções com parâmetros - pode ser chamada antes da declaração
 Funções com retorno - pode ser chamada antes da declaração
 Funções anônimas - não pode ser chamada antes da declaração
 Funções flecha - não pode ser chamada antes da declaração
+
+
+Aula 05
+
+Aprendendo arrays:
+
+Declaração e Acesso
+Modificação
+Tamanho
+
+Métodos de arrays
+
+Metodos
+| Método       | Função                               |
+| ------------ | ------------------------------------ |
+| `push()`     | adiciona no fim                      |
+| `pop()`      | remove do fim                        |
+| `unshift()`  | adiciona no início                   |
+| `shift()`    | remove do início                     |
+| `includes()` | verifica se contém determinado valor |
+| `indexOf()`  | retorna o índice do valor (ou -1)    |
+| `splice()`   | remove ou substitui elementos        |
+| `forEach()`  | itera sobre todos os elementos       |
+| `map()`      | cria novo array transformado         |
+
+
+Aprendendo Objetos
+
+Declaração
+Acesso
+Modificação
+Adição de nova chave
+
+
+Tarefa de aula
+
+Crie:
+    Um array de objetos, representando uma lista de estudantes, 
+cada um com nome e nota.
+    Uma função que percorra esse array e retorne o nome de 
+todos os estudantes com nota ≥ 7.
+
