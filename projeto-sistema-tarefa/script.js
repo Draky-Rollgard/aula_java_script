@@ -1,14 +1,15 @@
 document.getElementById("form-tarefa").addEventListener("submit", function(event) {
-    event.preventDefault();
+  event.preventDefault();
 
-    const input = document.getElementById("input-tarefa");
-    const texto = input.value.trim();
+  const input = document.getElementById("input-tarefa");
+  const texto = input.value.trim();
 
-    if(texto == "") return;
+  if (texto === "") return;
 
-    adicionarTarefa(texto);
-    input.value = "";
+  adicionarTarefa(texto);
+  input.value = "";
 });
+
 function adicionarTarefa(texto) {
   const lista = document.getElementById("lista-tarefas");
 
